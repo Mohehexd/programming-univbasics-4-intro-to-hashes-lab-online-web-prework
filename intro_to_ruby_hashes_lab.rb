@@ -36,8 +36,3 @@ def update_counting_hash(hash, key)
 if update_hash[:apples]
    update_hash[:apples]+=1
 end
-if grocery_items[:rambutan]
-  puts "Rambutan present!"
-else
-  puts "No rambutan."
-end
