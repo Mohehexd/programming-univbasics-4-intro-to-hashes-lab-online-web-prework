@@ -34,7 +34,7 @@ def update_counting_hash(hash, key)
   # if the provided key is present, increment its value by 1
   update_counting_hash={:apple => 3}
 if update_hash[:apples]
-  puts :apples => 4
+   update_hash[:apples]+=1
 end
 if grocery_items[:rambutan]
   puts "Rambutan present!"
